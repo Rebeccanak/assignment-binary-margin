@@ -101,3 +101,17 @@ while(num[middleIndex]!==firstIndex<=lastIndex){
           let arr2 = [1, 4, 78, 2, 67, 3];
           let index = findTarget(arr2, target);
           console.log(index);
+
+    
+          {
+
+            let num = [45,12,6,89,2,5];
+let target = 6;
+
+let index = num.indexOf(target);
+if (index !== -1) {
+  console.log(index); // Output: 2
+} else {
+  console.log(null); // Output: null
+}
+          }
